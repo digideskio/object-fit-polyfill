@@ -11,12 +11,12 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0"
   ],
-  "main": [
+  "main": {
     "development": "src/objectFitPolyfill.js",
     "production": "dist/objectFitPolyfill.min.js",
     "development-basic": "src/objectFitPolyfill.basic.js",
     "production-basic": "dist/objectFitPolyfill.basic.min.js"
-  ],
+  },
   "moduleType": [
     "global",
     "amd"
@@ -28,7 +28,7 @@
   ],
   "license": "MIT",
   "ignore": [
-    "*.subilme-*",
+    "*.sublime-*",
     "**/.*",
     "node_modules",
     "bower_components",
