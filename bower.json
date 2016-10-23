@@ -6,12 +6,17 @@
     "Dominik Biedebach <db2k>"
   ],
   "description": "Easy to use object-fit polyfill with a wide range of browsersupport.",
-  "devDependencies": [
+  "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0"
-  ],
-  "main": "src/objectFitPolyfill.js"
+  },
+  "main": {
+    "development": "src/objectFitPolyfill.js",
+    "production": "dist/objectFitPolyfill.min.js",
+    "development-basic": "src/objectFitPolyfill.basic.js",
+    "production-basic": "dist/objectFitPolyfill.basic.min.js"
+  },
   "moduleType": [
     "global",
     "amd"
